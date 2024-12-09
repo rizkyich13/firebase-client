@@ -4,7 +4,7 @@ This app allows you to sign in with Firebase Authentication using email and pass
 
 ## Prerequisites
 
-- Node.js v16.x or higher (LTS recommended)
+- Node.js v18.x or higher (LTS recommended)
 - A Firebase project with Firebase Authentication enabled
 - Firebase API credentials (API Key, Auth Domain, Project ID, etc.)
 
