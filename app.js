@@ -46,12 +46,7 @@ async function main() {
   }
   console.log(`\n\x1b[32m✔ Successfully collected tokens for ${userTokens.length} users.\x1b[0m`);
 
-  const outputData = {
-    totalUsersAttempted: numberOfUsers,
-    totalUsersSignedin: userTokens.length,
-    tokens: userTokens,
-    timestampSaved: new Date().toISOString()
-  };
+  const outputData = [...userTokens]
 
   // Write the combined data to a JSON file
   console.log(`\x1b[34mSaving collected tokens to ${outputPath}...\x1b[0m`);
